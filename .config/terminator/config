@@ -1,0 +1,49 @@
+[global_config]
+  enabled_plugins = SearchPlugin, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  inactive_color_offset = 0.88
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[cdl]]
+    [[[child0]]]
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1366, 719
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 239
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#262626"
+    background_darkness = 0.8
+    background_image = None
+    cursor_shape = ibeam
+    foreground_color = "#ffffff"
+    icon_bell = False
+    palette = "#262626:#cc0000:#a6e22e:#cfcf19:#529bff:#d81dc3:#ae81ff:#d0d0d0:#3e3e3e:#fb4d53:#74ff79:#e6db74:#66d9ef:#f63ba3:#2ad2f7:#f8f8f0"
+    scroll_on_output = False
+    scrollback_infinite = True
+    show_titlebar = False
