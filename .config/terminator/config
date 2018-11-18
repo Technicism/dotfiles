@@ -35,6 +35,9 @@
       profile = default
       type = Terminal
 [plugins]
+  [[SearchPlugin]]
+    base_uri = "https://www.google.com.au/search?q=%s"
+    label = "Google Search"
 [profiles]
   [[default]]
     background_color = "#262626"
