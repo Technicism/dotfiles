@@ -1,0 +1,23 @@
+{
+    "installed_packages": [
+        "Calculate",
+        "Color Schemes by carlcalderon",
+        "FileDiffs",
+        "Git",
+        "Google Search",
+        "HTML (C#)",
+        "HTML-CSS-JS Prettify",
+        "Indent XML",
+        "INI",
+        "Open in Default Application",
+        "Origami",
+        "Package Control",
+        "PackageResourceViewer",
+        "PackageSync",
+        "Pretty JSON",
+        "Puppet",
+        "SFTP",
+        "URLEncode",
+        "Zip Browser"
+    ]
+}
